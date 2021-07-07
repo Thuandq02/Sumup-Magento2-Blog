@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<page layout="1column" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+
+        <referenceContainer name="product.info.main">
+            <block class="SmartOSC\Blog\Block\Frontend\BlogProduct" name="blog_product_attribute" template="SmartOSC_Blog::blog_product_attribute.phtml" cacheable="false" >
+            </block>
+        </referenceContainer>
+</page>
